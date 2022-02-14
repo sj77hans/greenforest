@@ -339,9 +339,11 @@
     <script src="../lib/fontawesome/5.15.3/js/all.min.js"  crossorigin="anonymous"></script>
     <script src="../lib/summernote/8.18/js/summernote-bs4.min.js"></script>
     <script src="../lib/summernote/8.18/js/lang/summernote-ko-KR.js"></script>
+    <script src="../js/sidebarToggle.js" crossorigin="anonymous"></script>
     <script src="products_list.js" crossorigin="anonymous"></script>
     <!-- <script src="category_modal.js" crossorigin="anonymous"></script> -->
     <script src="products-datatables-call.js" crossorigin="anonymous"></script>
     <script src="../js/script.js" crossorigin="anonymous"></script>
 </body>
 </html>
+test

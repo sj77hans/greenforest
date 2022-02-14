@@ -233,7 +233,7 @@ a {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 9;
 }
 
 html,
@@ -264,7 +264,7 @@ body {
     flex-basis: 225px;
     flex-shrink: 0;
     transition: transform 0.15s ease-in-out;
-    z-index: 1038;
+    z-index: 9;
     transform: translateX(-225px);
 }
 
@@ -292,7 +292,7 @@ body {
     width: 100%;
     height: 100%;
     background: #000;
-    z-index: 1037;
+    z-index: 9;
     opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
 }
@@ -321,13 +321,13 @@ body {
 }
 
 .sb-nav-fixed .sb-topnav {
-    z-index: 1039;
+    z-index: 10;
 }
 
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
     width: 225px;
     height: 100vh;
-    z-index: 1038;
+    z-index: 9;
 }
 
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {
@@ -370,7 +370,7 @@ body {
 .sb-topnav {
     padding-left: 0;
     height: 56px;
-    z-index: 1039;
+    z-index: 10;
 }
 
 .sb-topnav .navbar-logo {
