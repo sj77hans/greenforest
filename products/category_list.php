@@ -69,16 +69,9 @@
 
                                             <tr data-index="<?= $rs_idx ?>" data-position="<?= $rs_position ?>" class="d-flex pointer table-info">
                                                 <td class="col-2"><i class="fas fa-bars mr-2"></i></td>
-                                                <td class="col-7"><span class="badge badge-success mr-1"><?= $rs_position; ?></span><span class="text-left"><?= $rs_cate1name; ?></td>
-                                                <td class="col-3">
-                                                    <div class="btn-group">
-                                                        <button id="btnGroupDrop1-<?= $rs_idx; ?>" type="button" class="btn btn-info btn-xs dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-edit mr-1"></i><span class="editToggle">EDIT</span></button>
-                                                        <ul class="dropdown-menu dropdown-menu-lg-right dropdown-menu-samll" aria-labelledby="btnGroupDrop1-<?= $rs_idx; ?>">
-                                                            <li><a class="dropdown-item small" href="#" data-toggle="modal" data-target="#UpdateCate1" data-cate1name="<?= $rs_cate1name; ?>" data-idx="<?php echo $rs_idx ?>"><i class="fa fa-pencil-alt mr-1"></i>수정</a></li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item small" href="#" data-toggle="modal" data-target="#DeleteCate1" data-cate1name="<?= $rs_cate1name; ?>" data-idx="<?php echo $rs_idx ?>"><i class="fa fa-trash-alt mr-1"></i>삭제</a></li>
-                                                        </ul>
-                                                    </div>
+                                                <td class="col-6"><span class="badge badge-success mr-1"><?= $rs_position; ?></span><span class="text-left"><?= $rs_cate1name; ?></td>
+                                                <td class="col-2"><a class="dropdown-item small" data-toggle="modal" data-target="#UpdateCate1" data-cate1name="<?= $rs_cate1name; ?>" data-idx="<?php echo $rs_idx ?>"><i class="fa fa-pencil-alt mr-1"></i></a></td>
+                                                <td class="col-2"><a class="dropdown-item small" data-toggle="modal" data-target="#DeleteCate1" data-cate1name="<?= $rs_cate1name; ?>" data-idx="<?php echo $rs_idx ?>"><i class="fa fa-trash-alt mr-1"></i></a>
                                                 </td>
                                             </tr>
                                         <?php
